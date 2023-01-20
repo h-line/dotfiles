@@ -1,7 +1,6 @@
 require('plugins')
 require('mappings')
 
-
 local g = vim.g
 g.loaded_netrw = 1
 g.loaded_netrwPlugin = 1
@@ -18,5 +17,3 @@ o.ignorecase = true
 o.smartcase = true
 
 vim.cmd('colorscheme base16-monokai')
-
-
