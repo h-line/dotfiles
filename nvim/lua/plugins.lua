@@ -130,6 +130,9 @@ require('lspconfig').tsserver.setup{
 require('lspconfig').eslint.setup{
   capabilities = capabilities,
 }
+require('lspconfig').pylsp.setup{
+  capabilities = capabilities,
+}
 require('lspconfig').sumneko_lua.setup {
   capabilities = capabilities,
   settings = {
