@@ -7,4 +7,5 @@
 cp ~/.zshrc ./zsh/
 
 # Copy Neovim configs 
-cp -r ~/.config/nvim/* ./nvim/
+cp ~/.config/nvim/init.lua ./nvim/
+cp -r ~/.config/nvim/lua/* ./nvim/lua/
